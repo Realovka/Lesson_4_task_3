@@ -13,7 +13,7 @@ public class Main {
             array[i]=random.nextInt(99);
         }
 
-        System.out.print(Arrays.toString(array));
+        System.out.println(Arrays.toString(array));
 
         int y=0; // счетчик
         for(int i=0; i<array.length; i++){
@@ -22,7 +22,6 @@ public class Main {
             }
         }
 
-        System.out.println();
         System.out.println("Количество четных элементов "+y);
 
     }
